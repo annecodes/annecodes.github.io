@@ -1,0 +1,85 @@
+
+@media (max-width: 499px){
+    .card {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .black {
+        padding: 2rem;
+    }
+}
+
+
+
+$background: black;
+$text: white;
+$highlight: limegreen;
+$h1: "Beth Ellen";
+$h2: 'Italiana';
+
+body {
+    .black {
+        background-color: $background;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        color: $text;
+    }
+    h1, h2 {
+        color: $text;
+    }
+
+    h1 {
+        font-family: $h2;
+        font-size: 60px;
+    }
+    h2 {
+        font-family: $h1;
+    }
+    p {
+        background-color: white;
+        color: black;
+        padding: 2rem;
+        margin-top: 3rem;
+        border-radius: 5px;
+    }
+}
+
+
+
+%card {
+    border: 0.5rem solid lightgrey;
+}
+.card {
+    @extend %card;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.card-link{
+    font-weight: bold;
+    color: $highlight;
+    :hover{
+        color: darkgreen;
+    }
+}
+
+.card-title {
+    color: black;
+}
+
+#ttitle{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: $h2;
+}
+
+.table {
+    max-width: 700px;
+}
+
+#b-order {
+    margin: 2rem;
+    object-position: center;
+}

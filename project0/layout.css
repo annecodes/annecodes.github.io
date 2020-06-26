@@ -1,0 +1,72 @@
+@media (max-width: 499px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\000033}}
+  .card {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\000037}}
+  .black {
+    padding: 2rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000321}}
+body .black {
+  background-color: black;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000329}}
+body h1, body h2 {
+  color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000333}}
+body h1 {
+  font-family: "Italiana";
+  font-size: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000337}}
+body h2 {
+  font-family: "Beth Ellen"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000340}}
+body p {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000351}}
+.card {
+  border: 0.5rem solid lightgrey; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000354}}
+.card {
+  margin-top: 2rem;
+  margin-bottom: 5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000360}}
+.card-link {
+  font-weight: bold;
+  color: limegreen; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000363}}
+  .card-link :hover {
+    color: darkgreen; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000368}}
+.card-title {
+  color: black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000372}}
+#ttitle {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-family: "Italiana"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000378}}
+.table {
+  max-width: 700px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Saturn\/Documents\/CS50\/Web\%20Dev\/project0\/project0\/layout\.scss}line{font-family:\0000382}}
+#b-order {
+  margin: 2rem;
+  object-position: center; }
+
+/*# sourceMappingURL=layout.css.map */
